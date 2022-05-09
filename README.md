@@ -15,7 +15,7 @@ git clone https://github.com/qkrsh0424/rabbitmq_stomp.git
 docker pull rabbitmq:management
 
 # Dockerfile build
-docker build . -t rabbitmq_stomp
+docker build . -t rabbitmq_stomp:1.0.0
 
 # Container 생성 및 실행
 docker-compose up -d
